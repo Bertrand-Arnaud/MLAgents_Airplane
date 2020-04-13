@@ -90,6 +90,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -181,6 +182,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -259,6 +261,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -337,6 +340,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -415,6 +419,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -524,10 +529,10 @@ MonoBehaviour:
     vectorActionSize: 030000000300000002000000
     vectorActionDescriptions: []
     vectorActionSpaceType: 0
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: c4f82b57709b8e94d950c28a29ff8b6f, type: 3}
   m_InferenceDevice: 0
   m_UseHeuristic: 0
-  m_BehaviorName: AricraftLearning
+  m_BehaviorName: AircraftLearning
 --- !u!114 &6334765009582438288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -597,6 +602,7 @@ TrailRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -685,16 +691,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5407278206977473451}
     m_Modifications:
-    - target: {fileID: 8385434484964945439, guid: e8964146fc8f995448ab83ac9ed257b4,
-        type: 3}
-      propertyPath: m_Name
-      value: MosaicExplosion
-      objectReference: {fileID: 0}
-    - target: {fileID: 8385434484964945439, guid: e8964146fc8f995448ab83ac9ed257b4,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8382149102810331027, guid: e8964146fc8f995448ab83ac9ed257b4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -748,6 +744,16 @@ PrefabInstance:
     - target: {fileID: 8382149102810331027, guid: e8964146fc8f995448ab83ac9ed257b4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385434484964945439, guid: e8964146fc8f995448ab83ac9ed257b4,
+        type: 3}
+      propertyPath: m_Name
+      value: MosaicExplosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 8385434484964945439, guid: e8964146fc8f995448ab83ac9ed257b4,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

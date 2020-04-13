@@ -99,7 +99,7 @@ LightmapSettings:
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 1e9177219bb9236439d3b806a0031d8c,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -564,6 +564,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 299772718600239506, guid: 0e571a8a668e07947b2c8f8f76d1cb24,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 786769279209954802, guid: 0e571a8a668e07947b2c8f8f76d1cb24,
         type: 3}
       propertyPath: m_Name
@@ -623,6 +628,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640851069612955576, guid: 0e571a8a668e07947b2c8f8f76d1cb24,
+        type: 3}
+      propertyPath: m_BrainParameters.vectorObservationSize
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640851069612955576, guid: 0e571a8a668e07947b2c8f8f76d1cb24,
+        type: 3}
+      propertyPath: m_UseHeuristic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e571a8a668e07947b2c8f8f76d1cb24, type: 3}

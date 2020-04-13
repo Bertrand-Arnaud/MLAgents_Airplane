@@ -74,7 +74,8 @@ namespace Aircraft
             }
 
             // Set start position to the previous checkpoint;
-            int previousCheckpointIndex = agent.nextCheckpointIndex > 0 ? agent.nextCheckpointIndex - 1 : checkpoints.Count - 1;
+            int previousCheckpointIndex = agent.nextCheckpointIndex - 1;
+            if (previousCheckpointIndex == -1) previousCheckpointIndex = checkpoints.Count - 1;
 
             float startPosition = racePath.FromPathNativeUnits(previousCheckpointIndex, CinemachinePathBase.PositionUnits.PathUnits);
 
@@ -86,6 +87,10 @@ namespace Aircraft
 
             // Calculate a horizontal offset so that agents are spread out.
             Vector3 positionOffset = Vector3.right * (aircraftAgents.IndexOf(agent) - aircraftAgents.Count / 2f) * 10f;
+
+            // Set the aircraft position and rotation
+            agent.transform.position = basePosition + orientation * positionOffset;
+            agent.transform.rotation = orientation;
         }
     }
 }

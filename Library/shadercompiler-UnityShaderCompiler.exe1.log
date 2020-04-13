@@ -1,40 +1,4 @@
 Base path: 'C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=4 insize=18731 outsize=8653 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=18731 outsize=10714 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=12733 outsize=1004 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=12733 outsize=1789 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=4631 outsize=1831 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=11176 outsize=9840 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=28420 outsize=2690 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=28420 outsize=1306 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=28420 outsize=1835 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=28420 outsize=1326 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=65748 outsize=7425 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21203 outsize=706 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21203 outsize=850 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21203 outsize=1257 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21203 outsize=1449 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21203 outsize=1450 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=21203 outsize=1296 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=24259 outsize=4092 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=2364 outsize=3642 kw=_ADDITIONAL_LIGHTS _ENVIRONMENTREFLECTIONS_OFF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+  api=4 type=0 insize=2355 outsize=790 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
